@@ -5,7 +5,7 @@ services:
         build:
             context: etc/devel/docker
         image: php/php-cli
-        container_name: php-cli
+        container_name: miquel.php-cli
         volumes:
             - ".:/app"
         extra_hosts:
